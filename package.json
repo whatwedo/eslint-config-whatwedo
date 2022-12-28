@@ -15,7 +15,7 @@
         }
     ],
     "keywords": ["eslint", "whatwedo"],
-    "devDependencies": {
+    "dependencies": {
         "eslint": "^8.30.0",
         "eslint-config-airbnb": "^19.0.0",
         "eslint-config-prettier": "^8.5.0",
@@ -25,6 +25,8 @@
         "eslint-plugin-react-hooks": "^4.6.0"
     },
     "peerDependencies": {
-        "eslint": ">= 8"
+        "eslint": ">= 8",
+        "eslint-config-airbnb": "^19.0.0",
+        "eslint-config-prettier": "^8.5"
     }
 }
